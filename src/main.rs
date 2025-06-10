@@ -1,5 +1,5 @@
 mod engine;
-mod network_manager;
+mod network;
 
 fn main() {
     println!("Hello, world!");

@@ -9,7 +9,7 @@ pub struct NetworkManager {
 
 impl NetworkManager {
     pub fn builder() -> NetworkManagerBuilder {
-        NetworkManagerBuilder::new(ManagerMode::Server)
+        NetworkManagerBuilder::new()
     }
 }
 
@@ -18,8 +18,8 @@ pub struct NetworkManagerBuilder {
 }
 
 impl NetworkManagerBuilder {
-    pub fn new(mode: ManagerMode) -> Self {
-        Self { mode }
+    pub fn new() -> Self {
+        Self {}
     }
     
     pub fn enable_server(&mut self) {

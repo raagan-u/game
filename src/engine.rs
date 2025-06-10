@@ -1,4 +1,4 @@
-use crate::network_manager::NetworkManager;
+use crate::network::network_manager::NetworkManager;
 
 //The Game Engine is responsible for managing the game state and updating the game world.
 // It also based on the provided mode enables the user to 
