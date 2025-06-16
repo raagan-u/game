@@ -11,6 +11,7 @@ pub struct GameEngine {
     game_mode: GameMode,
     server: NetworkManager, // either handles a server or a client
     ui: UserInterface
+    
 }
 
 
